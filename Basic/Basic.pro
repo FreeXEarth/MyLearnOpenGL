@@ -5,9 +5,6 @@ CONFIG -= warn_off
 SOURCES += \
     main.cpp
 
-LIBS += \
-        -lglfw
-
 DESTDIR += ../bin
 
 LIBS += -L ../bin -lglfw -lglew
